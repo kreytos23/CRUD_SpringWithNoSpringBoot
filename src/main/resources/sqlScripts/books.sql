@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Books (
+    bookId BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(250) NOT NULL,
+    totalPages INT NOT NULL,
+    rating INT NOT NULL,
+    isbn VARCHAR(250) NOT NULL,
+    publishedDate DATE NOT NULL);
